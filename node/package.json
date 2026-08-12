@@ -1,0 +1,13 @@
+{
+  "name": "node-soap-numero-a-letras",
+  "version": "1.0.0",
+  "description": "Cliente SOAP que consume NumberConversion y regresa el numero en letras (ingles)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "soap": "^1.1.4"
+  }
+}
