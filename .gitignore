@@ -1,0 +1,48 @@
+# ==== Node ====
+node/**/node_modules/
+node/**/npm-debug.log
+node/**/.env
+
+# ==== .NET ====
+dotnet/**/bin/
+dotnet/**/obj/
+dotnet/**/*.user
+
+# ==== Java ====
+java/**/target/
+java/**/*.class
+java/**/.mvn/
+java/**/*.jar
+!java/**/lib/*.jar
+
+# ==== Go ====
+golang/**/*.exe
+golang/**/*.test
+golang/**/vendor/
+
+# ==== Ruby ====
+ruby/**/*.gem
+ruby/**/.bundle/
+ruby/**/vendor/bundle/
+
+# ==== Perl ====
+perl/**/*.bak
+perl/**/local/
+
+# ==== C++ ====
+cpp/**/*.o
+cpp/**/*.out
+cpp/**/build/
+cpp/**/*.exe
+
+# ==== Rust ====
+rust/**/target/
+rust/**/Cargo.lock
+
+# ==== Generales / Sistema Operativo ====
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+*.swp
